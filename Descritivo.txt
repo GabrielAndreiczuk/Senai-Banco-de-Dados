@@ -1,0 +1,29 @@
+Sistema desenvolvido para controle de manutenção de máquinas em
+indústrias, com objetivo de simplificar processos de controle e monitoramento
+de indicadores. O funcionamento do sistema e os requisitos necessários estão
+descritos abaixo:
+
+1. No cadastramento das máquinas da empresa, cada máquina contará com
+um código de identificação único, e também com informações para um maior
+detalhamento, como: nome, setor, tipo da máquina, fabricante e descrição.
+
+2. Precisamos ter um controle de quem realiza as manutenções nas máquinas.
+A pessoa responsável, terá um código único de identificação, e o sistema irá
+guardar seu nome, setor, especialização e telefone ou ramal para contato.
+
+3. Para a abertura de uma ordem de manutenção, será gerado um código único
+de identificação, o sistema irá guardar informações da máquina em questão, do
+funcionário responsável por realizar a manutenção e também marcará data e
+hora de início e de término da operação. Precisamos também de uma
+descrição do processo realizado, informando as ferramentas necessárias e
+também as peças que foram repostas.
+
+4. Para a realização da manutenção, é preciso da utilização de ferramentas
+adequadas por parte do manutentor. Estas ferramentas terão um código único,
+nome e descrição.
+
+5. Em alguns caso pode ser necessário a troca de alguma peça ou componente
+da máquina, para isso precisamos de um número de identificação para cada
+peça, também do seu nome, descrição. A peça pode conter em estoque, nesse
+caso teremos seu número de estoque, mas caso seja necessário a compra,
+precisamos saber o seu fornecedor, custo de compra, e tempo de entrega.
